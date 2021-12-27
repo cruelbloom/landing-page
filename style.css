@@ -1,0 +1,146 @@
+body {
+    background-color: white;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.bottom-header {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between
+}
+
+.left-bottom-header {
+    max-width: 50%;
+}
+
+.right-bottom-header {
+    max-width: 50%;
+}
+.header-text {
+    font-size: 10px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+    border-color: #3882F6;
+    border-style: hidden;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.content-images {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.content-images-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+    font-size: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.top-content {
+    padding-bottom: 50px;
+}
+
+p {
+    width: 100px;
+    text-align: center;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #E5E7EB;
+}
+
+q {
+    font-size: 24px;
+    color: #1F2937;
+}
+
+g {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bottom-content {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #3882F6;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #E5E7EB;
+    gap: 60px;
+    border-radius: 4px;
+}
+
+.right-bottom-content {
+    display: flex;
+    align-items: center;
+    border-width: 2px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.bottom-content-text {
+    margin-top: -20px;
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color:#E5E7EB;
+    font-size: 10px;
+    padding: 15px;
+}
